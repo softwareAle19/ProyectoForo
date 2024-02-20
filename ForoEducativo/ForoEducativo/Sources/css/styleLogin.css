@@ -1,0 +1,97 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.div-1 {
+    background-color: #DADFE8;
+    width: 450px;
+    height: 550px;
+    padding: 35px;
+    border-radius: 15px 0 0 15px;
+    align-items: center;
+    margin-left: 90px;
+}
+
+    .div-1 .inputIngreso {
+        width: 350px;
+        display: flex;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        background: none;
+        border-color: #7A84B3;
+        outline: 0px;
+        color: #7A84B3;
+    }
+
+    .div-1 label {
+        color: #7A84B3;
+        font-family: "Kanit", sans-serif;
+        letter-spacing: 0.08em
+    }
+
+#contenedorForm {
+    margin-top: 45px;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+h3 {
+    color: #4F5DB0;
+    font-family: "Archivo Black", sans-serif;
+    letter-spacing: 0.09em;
+}
+
+.imagenLogin {
+    width: 550px;
+}
+
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.mb-3 {
+    margin-top: 25px;
+}
+
+.form-check-input {
+    background: #517075;
+}
+
+.olvidoContraseña {
+    font-size: 12px;
+    margin-left: 108px;
+    color: #7A84B3;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 0.08em;
+    float: right;
+}
+
+.btnIngresar {
+    width: 350px;
+    height: 45px;
+    border: none;
+    background-color: #5974E7;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    margin-top: 20px;
+}
+
+.div-2 {
+    padding: 35px;
+    margin-left: -38px;
+    border-radius: 15px 0 0 15px;
+}
