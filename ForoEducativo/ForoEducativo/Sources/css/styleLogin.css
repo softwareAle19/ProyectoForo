@@ -95,3 +95,51 @@ h3 {
     margin-left: -38px;
     border-radius: 15px 0 0 15px;
 }
+
+/*Master*/
+.nav-pills li a:hover {
+    background-color: blue;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-style: outset;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img {
+        align-content: baseline;
+        height: 100px;
+        margin-top: auto;
+    }
+
+.logo-nombre {
+    margin-top: auto;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+    nav a:hover {
+        color: red;
+    }

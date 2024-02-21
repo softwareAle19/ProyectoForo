@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ForoEducativo.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet" />
+    <link href="Sources/css/styleLogin.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <%--Encabezado--%>
+        <header class="outset">
+            <a class="logo">
+                <img src="Sources/img/Logooo.png" alt="logo de la
+                compañia"
+                    class="logo-img" />
+                <h2 class="logo-nombre">I.E.T.C.G</h2>
+            </a>
+            <nav>
+                <a href="#" class="">Salir <i class="fa-solid fa-right-from-bracket"></i></a>
+            </nav>
+        </header>
+
+        <%--sidebar--%>
+        <div class="row flex-nowrap">
+            <div class="bg-light col-auto col-md-4 col-lg-3 min-vh-100 d-flex flex-column justify-content-between">
+
+                <div class="bg-light p-2">
+
+                    <a class="d-flex text-decoration-none mt-1 align-items-center text-black">
+                        <span class="fs-4 d-none d-sm-inline">Menu</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mt-4">
+                        <li class="nav item py-2 py-ms-0">
+                            <a href="#" class="nav-link active text-white">
+                                <i class="fs-5 fa fa-house"></i><span class="fs-4 ms-1 d-none d-sm-inline">Inicio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-2 py-ms-0">
+                            <a href="#" class="nav-link active text-white">
+                                <i class="fa-solid fa-chalkboard-user"></i><span class="fs-4 ms-1 d-none d-sm-inline">Docentes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-2 py-ms-0">
+                            <a href="#" class="nav-link active text-white">
+                                <i class="fa-solid fa-user"></i><span class="fs-4 ms-1 d-none d-sm-inline">Estudiantes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-2 py-ms-0 mask">
+                            <a href="#" class="nav-link active text-white">
+                                <i class="fa-solid fa-chalkboard"></i><span class="fs-4 ms-1 d-none d-sm-inline">Cursos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-2 py-ms-0">
+                            <a href="#" class="nav-link active text-white">
+                                <i class="fa-solid fa-user-graduate"></i><span class="fs-4 ms-1 d-none d-sm-inline">Promover Cursos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown open p-3">
+                    <button class="btn btn-secondary dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-user"></i><span class="ms-2">out</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <button class="dropdown-item" href="">salir</button>
+                        <button class="dropdown-item disabled" href="">perfil</button>
+                    </div>
+                </div>
+            </div>
+            <%--contenido--%>
+            <div class="p-3">
+                <h2>Contenido</h2>
+                <h3>En la historia de la economia</h3>
+                <img src="Sources/img/Logooo.png" alt="Alternate Text" />
+                <h2>Float Right</h2>
+
+                <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio,
+                    
+                    vitae scelerisque enim ligula venenatis dolor.
+                    <br />
+                    Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula,
+                    <br /> facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+                    <br /> In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                    <br /> Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
